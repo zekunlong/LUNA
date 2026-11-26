@@ -1,0 +1,20 @@
+# Separate journal environment: Python 3.9, CUDA 11.8 PyTorch wheels.
+# Keep the repository's original requirements.txt unchanged for legacy.
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.0.1+cu118
+torchvision==0.15.2+cu118
+numpy==1.24.2
+ftfy==6.1.1
+Pillow
+regex
+tqdm
+yacs
+gdown
+tabulate
+scipy
+scikit-learn
+matplotlib
+tensorboard
+wilds==1.2.2
+future
+# Dassl is imported from ../Dassl.pytorch by train.py, not from PyPI.

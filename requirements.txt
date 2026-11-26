@@ -1,0 +1,15 @@
+torch==2.0.1
+torchvision==0.15.2
+numpy==1.24.2
+Pillow
+dassl
+ftfy==6.1.1
+regex
+tqdm
+yacs
+gdown
+tabulate
+scipy
+scikit-learn
+matplotlib
+tensorboard
